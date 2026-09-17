@@ -12,30 +12,37 @@ const orgs = {
     "--primary"
   ],
   "TalTech": [
-    "https://taltech.ee/rohepoore/kliimanutikas-ulikool/rohelised-teemakuud",
-    "assets/taltech2035.png",
+    "https://taltech.ee/infotehnoloogia-teaduskond",
+    "assets/taltech.png",
     "--taltech-color",
   ],
-  "Tallinna Tehnikaülikooli Robotiklubi": [
-    "https://robotiklubi.ee",
-    "assets/Robotiklubi-logo.png",
-    "--robot-club-color",
-  ],
-  "Tallinna Tööstushariduskeskus": [
-    "https://tthk.ee",
-    "assets/TTHK-logo.png",
-    "--background",
-  ],
-  "TalTech Üliõpilasesindus": [
-    "https://taltech.ee/tudengielu/uliopilasesindusest",
-    "assets/taltechye.png",
-    "--taltech-color",
+  "Balsnack": [
+    "https://balsnack.ee/",
+    "assets/balsnack-logo.svg",
+    "--balsnack-color",
   ],
   "K-space": [
     "https://k-space.ee",
     "assets/kspace-logo2.svg",
     "--kspace-color",
   ],
+  // "Tallinna Tehnikaülikooli Robotiklubi": [
+  //   "https://robotiklubi.ee",
+  //   "assets/Robotiklubi-logo.png",
+  //   "--robot-club-color",
+  // ],
+  // "Tallinna Tööstushariduskeskus": [
+  //   "https://tthk.ee",
+  //   "assets/TTHK-logo.png",
+  //   "--background",
+  // ],
+  // "TalTech Üliõpilasesindus": [
+  //   "https://taltech.ee/tudengielu/uliopilasesindusest",
+  //   "assets/taltechye.png",
+  //   "--taltech-color",
+  // ],
+
+
 };
 
 export const Hero = () => (
@@ -79,25 +86,25 @@ export const Hero = () => (
         <div
           className="**:font-syncopate items-center px-4 max-w-full py-3 lg:px-5 lg:py-5 bg-primary w-max flex gap-4 lg:gap-8">
           <div className="flex items-center gap-1 lg:gap-2.5 ">
-            <p className="font-bold text-white not-sm:text-[10px] md:text-xs lg:text-2xl">
+            {/* <p className="font-bold text-white not-sm:text-[10px] md:text-xs lg:text-2xl">
               Aitäh, et osalesite 2025 Remondikohvikul! Ootame teid tagasi 2026 kevadel!
-            </p>
-            {/*<Calendar className="not-sm:size-3 -translate-y-0.25"/>
+            </p> */}
+            <Calendar className="not-sm:size-3 -translate-y-0.25"/>
             <p className="font-bold text-white not-sm:text-[9px] md:text-xs lg:text-2xl">
-              8. Nov 2025 <br/>(11:00 - 16:00)
-            </p>*/}
+              24. Okt 2026 <br/>(11:00 - 15:00)
+            </p>
           </div>
-          {/*<div className="flex items-center gap-1 lg:gap-2.5 ">*/}
-          {/*  <MapPin className="not-sm:size-3 -translate-y-0.25"/>*/}
-          {/*  <a*/}
-          {/*    href="https://maps.app.goo.gl/B77ZdAA7KW3k3mze6"*/}
-          {/*    target="_blank"*/}
-          {/*    rel="noopener noreferrer"*/}
-          {/*    className="font-bold text-white hover:text-secondary-foreground hover:underline not-sm:text-[9px] md:text-xs lg:text-2xl relative z-20"*/}
-          {/*  >*/}
-          {/*    Taltech peamaja kohvik*/}
-          {/*  </a>*/}
-          {/*</div>*/}
+          <div className="flex items-center gap-1 lg:gap-2.5 ">
+           <MapPin className="not-sm:size-3 -translate-y-0.25"/>
+           <a
+            href="https://maps.app.goo.gl/B77ZdAA7KW3k3mze6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-white hover:text-secondary-foreground hover:underline not-sm:text-[9px] md:text-xs lg:text-2xl relative z-20"
+          >
+          Taltech peamaja kohvik
+          </a>
+          </div>
         </div>
       </div>
 
