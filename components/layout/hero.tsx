@@ -26,21 +26,26 @@ const orgs = {
     "assets/kspace-logo2.svg",
     "--kspace-color",
   ],
-  // "Tallinna Tehnikaülikooli Robotiklubi": [
-  //   "https://robotiklubi.ee",
-  //   "assets/Robotiklubi-logo.png",
-  //   "--robot-club-color",
-  // ],
+  "Tallinna Tehnikaülikooli Robotiklubi": [
+     "https://robotiklubi.ee",
+     "assets/Robotiklubi-logo.png",
+     "--robot-club-color",
+  ],
+  "A. Le Coq": [
+     "https://www.alecoq.ee/",
+     "assets/alecoq.svg",
+     "--alecoq-color",
+  ],
   // "Tallinna Tööstushariduskeskus": [
   //   "https://tthk.ee",
   //   "assets/TTHK-logo.png",
   //   "--background",
   // ],
-  // "TalTech Üliõpilasesindus": [
-  //   "https://taltech.ee/tudengielu/uliopilasesindusest",
-  //   "assets/taltechye.png",
-  //   "--taltech-color",
-  // ],
+  "TalTech Üliõpilasesindus": [
+     "https://taltech.ee/tudengielu/uliopilasesindusest",
+     "assets/taltechye.png",
+     "--taltech-color",
+  ],
 
 
 };
