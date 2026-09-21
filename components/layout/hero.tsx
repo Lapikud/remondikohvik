@@ -41,6 +41,11 @@ const orgs = {
   //   "assets/TTHK-logo.png",
   //   "--background",
   // ],
+  "Majandus- ja Teeninduskolledž": [
+     "https://avara.edu.ee/",
+     "assets/avara-logo.png",
+     "--avara-color",
+  ],
   "TalTech Üliõpilasesindus": [
      "https://taltech.ee/tudengielu/uliopilasesindusest",
      "assets/taltechye.png",
